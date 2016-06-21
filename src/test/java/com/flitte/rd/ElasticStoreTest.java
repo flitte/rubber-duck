@@ -16,7 +16,6 @@
 
 package com.flitte.rd;
 
-import com.flitte.flubber.MockElastic;
 import com.flitte.rd.util.TestGroups;
 import gaffer.data.element.Edge;
 import gaffer.data.element.Element;
@@ -31,7 +30,6 @@ import gaffer.operation.impl.get.GetElementsSeed;
 import gaffer.operation.impl.get.GetRelatedElements;
 import gaffer.store.StoreException;
 import gaffer.store.StoreTrait;
-import gaffer.store.operation.handler.OperationHandler;
 import gaffer.user.User;
 import org.junit.After;
 import org.junit.Before;
@@ -48,7 +46,6 @@ import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.IsCollectionContaining.hasItem;
 import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertTrue;
 
 /**

@@ -23,12 +23,12 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="rubber-duck" />
-        <module name="sniggle" />
+        <module name="rubber-duck" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="rubber-duck" target="1.7" />
-      <module name="sniggle" target="1.7" />
+      <module name="rubber-duck" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

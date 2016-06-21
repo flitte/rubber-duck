@@ -20,7 +20,6 @@ import com.flitte.rd.ElasticStore;
 import gaffer.data.element.Element;
 import gaffer.operation.OperationException;
 import gaffer.operation.data.ElementSeed;
-import gaffer.operation.impl.get.GetAllElements;
 import gaffer.operation.impl.get.GetElements;
 import gaffer.store.Store;
 import gaffer.store.operation.handler.OperationHandler;

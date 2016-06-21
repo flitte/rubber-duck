@@ -17,29 +17,20 @@
 package com.flitte.rd.operation.handler;
 
 import com.flitte.rd.ElasticStore;
-import com.google.common.collect.Iterables;
-import com.google.common.collect.Iterators;
 import gaffer.data.element.Element;
 import gaffer.data.element.Entity;
 import gaffer.operation.OperationException;
-import gaffer.operation.data.ElementSeed;
 import gaffer.operation.impl.get.GetAllElements;
-import gaffer.operation.impl.get.GetElements;
 import gaffer.store.Store;
 import gaffer.store.operation.handler.OperationHandler;
 import gaffer.user.User;
 import org.codehaus.jackson.map.ObjectMapper;
-import org.codehaus.jackson.type.TypeReference;
 import org.elasticsearch.search.SearchHit;
 import org.elasticsearch.search.SearchHits;
-import org.elasticsearch.search.aggregations.metrics.percentiles.hdr.InternalHDRPercentileRanks;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
-
-import static java.util.Collections.emptyIterator;
 
 /**
  * @author flitte
